@@ -1,0 +1,36 @@
+nav.navbar {
+  background: linear-gradient(134.72deg, #3023ae 0%, #c86dd7 100%) no-repeat;
+  color: #fff;
+  font-weight: 500;
+  @extend .d-flex;
+  justify-content: space-between;
+
+  a {
+    color: #fff;
+  }
+
+  .menu > ul{
+    @extend .d-flex;
+    align-items: center;
+    list-style: none;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+
+    li {
+      &:not(:last-of-type) {
+        margin-right: 10px;
+      }
+
+      &.search {
+        a {
+          @extend .d-flex;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

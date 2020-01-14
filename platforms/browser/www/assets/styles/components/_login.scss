@@ -1,0 +1,15 @@
+.login {
+  padding: 20px 0;
+
+  .title {
+    text-align: center;
+  }
+  form {
+    width: 50%;
+    margin: 0 auto;
+
+    > * {
+      display: block;
+    }
+  }
+}
